@@ -396,6 +396,7 @@ static const CGFloat VENTokenFieldDefaultMaxHeight          = 150.0;
     }
     if (oldHeight != height) {
         [self setHeight:height];
+        [self layoutIfNeeded];
         if ([self.delegate respondsToSelector:@selector(tokenField:didChangeContentHeight:)]) {
             [self.delegate tokenField:self didChangeContentHeight:height];
         }
