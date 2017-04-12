@@ -168,6 +168,10 @@ static const CGFloat VENTokenFieldDefaultMaxHeight          = 150.0;
     return self.inputTextField.text;
 }
 
+- (void)clearInputText
+{
+    self.inputTextField.text = @"";
+}
 
 #pragma mark - View Layout
 
