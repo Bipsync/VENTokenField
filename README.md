@@ -1,3 +1,13 @@
+> [!WARNING]
+> **Deprecated. This fork is no longer changed.**
+>
+> Bipsync's copy of VENTokenField now lives in
+> [Bipsync/bipsync-notes-ios-ventokenfield](https://github.com/Bipsync/bipsync-notes-ios-ventokenfield),
+> which builds it as a static-library `.xcframework` for the Bipsync iOS app. Make any future
+> changes there.
+>
+> This fork is kept as the recorded base for that repo (commit `9674c8f`). Please don't delete it.
+
 VENTokenField
 =============
 [![Build Status](https://travis-ci.org/venmo/VENTokenField.svg?branch=master)](https://travis-ci.org/venmo/VENTokenField)
